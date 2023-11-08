@@ -1,0 +1,114 @@
+.fh__hero-section-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 90%;
+  align-items: flex-end;
+}
+@media screen and (max-width: 800px) {
+  .fh__hero-section-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+.fh__hero-section .fh__scroll-down {
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 169.4%; /* 23.716px */
+  letter-spacing: 0.735px;
+}
+.fh__hero-section .fh__scroll-down a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+.fh__hero-section .fh__scroll-down a svg {
+  animation: animate 1.5s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform-origin: top;
+    transform: scaleY(0);
+  }
+  45% {
+    transform-origin: top;
+    transform: scaleY(1);
+  }
+  55% {
+    transform-origin: bottom;
+    transform: scaleY(1);
+  }
+  100% {
+    transform-origin: bottom;
+    transform: scaleY(0);
+  }
+}
+@media screen and (max-width: 800px) {
+  .fh__hero-section .fh__scroll-down {
+    display: none;
+  }
+}
+.fh__hero-section-content {
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  padding: 6rem;
+}
+@media screen and (max-width: 800px) {
+  .fh__hero-section-content {
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .fh__hero-section-content {
+    padding: 4rem;
+  }
+}
+.fh__hero-section-content h1 {
+  color: #333;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0rem 4rem;
+}
+@media screen and (max-width: 600px) {
+  .fh__hero-section-content h1 {
+    margin: 0rem;
+  }
+}
+.fh__hero-section-content h1 b {
+  font-size: 8rem;
+}
+@media screen and (max-width: 600px) {
+  .fh__hero-section-content h1 b {
+    font-size: 6rem;
+  }
+}
+.fh__hero-section-content .meta-link {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 4rem 4rem;
+}
+@media screen and (max-width: 600px) {
+  .fh__hero-section-content .meta-link {
+    margin: 4rem 0rem;
+  }
+}
+.fh__hero-section .fh__trusted-partners-title {
+  color: #333;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 5rem;
+}
+.fh__hero-section .fh__trusted-partners-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}/*# sourceMappingURL=hero.css.map */

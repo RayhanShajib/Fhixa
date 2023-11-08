@@ -1,0 +1,68 @@
+.fh__footer {
+    &-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+    background-color: #333;
+    padding: 4rem;
+&-copyright-text{
+    color: #FFF;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 112.9%; /* 36.128px */
+text-align: center;
+margin-top: 3rem;
+}
+  &-logo {
+    h1 {
+      color: #fff;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 112.9%; /* 72.256px */
+    }
+  }
+  &-caseStudy,
+  &-resources {
+    ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+      li {
+        a {
+          color: #a6a6a6;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 25px; /* 27.096px */
+        }
+      }
+    }
+  }
+  &-contact-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    h4 {
+      color: #a6a6a6;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px; /* 27.096px */
+    }
+  }
+  &-title {
+    color: #fff;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 45.16px */
+    margin-bottom: 4rem;
+  }
+}

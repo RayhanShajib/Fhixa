@@ -1,0 +1,50 @@
+.fh__services-section {
+  cursor: pointer;
+}
+.fh__services-section-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 800px) {
+  .fh__services-section-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+.fh__services-section .vertical {
+  grid-row: auto/span 2;
+}
+.fh__services-section-wt-btns {
+  position: absolute;
+  bottom: 4rem;
+  transition: 1s;
+}
+@media screen and (max-width: 800px) {
+  .fh__services-section-wt-btns {
+    position: relative;
+    bottom: 0rem;
+  }
+}
+.fh__services-section-wt, .fh__services-section-adt, .fh__services-section-wd {
+  border: 1px solid #333;
+  padding: 3rem;
+  position: relative;
+}
+.fh__services-section-wt-btns, .fh__services-section-adt-btns, .fh__services-section-wd-btns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 8rem;
+}
+.fh__services-section-wt-title, .fh__services-section-adt-title, .fh__services-section-wd-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fh__services-section-wt-title h2, .fh__services-section-adt-title h2, .fh__services-section-wd-title h2 {
+  color: #333;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 100% */
+}/*# sourceMappingURL=services.css.map */

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,500&family=Poppins:wght@500&family=Roboto:wght@400;500&family=Space+Grotesk&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #e5f3f0;
+  font-family: "Nunito Sans", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+}
+span {
+  color: #54bd95;
+}
+
+.Section__section_FH002,
+.Section__section_FH003,
+.Section__section_FH004,
+.Section__section_FH005,
+.Section__section_FH006,
+.Section__section_FH007,
+.Section__section_FH008,
+.Section__section_FH010 {
+  margin: 9rem auto;
+  max-width: 1200px;
+  @media screen and (max-width: 1300px) {
+    width: 90%;
+  }
+}
+.Section__section_FH009 {
+  margin: 9rem 0rem;
+}
+header,.Section__section_FH001 {
+  max-width: 1200px;
+  margin: auto;
+  @media screen and (max-width: 1300px) {
+    width: 90%;
+  }
+}
+.section-title {
+  color: #333;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 56px; /* 87.5% */
+  div {
+    background: #333;
+    width: 55px;
+    height: 2px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+}
