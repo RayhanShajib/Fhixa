@@ -43,8 +43,12 @@
 }
 .fh__services-section-wt-title h2, .fh__services-section-adt-title h2, .fh__services-section-wd-title h2 {
   color: #333;
-  font-size: 40px;
-  font-style: normal;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 40px; /* 100% */
+}
+@media screen and (max-width: 600px) {
+  .fh__services-section-wt-title h2, .fh__services-section-adt-title h2, .fh__services-section-wd-title h2 {
+    font-size: 3rem;
+  }
 }/*# sourceMappingURL=services.css.map */

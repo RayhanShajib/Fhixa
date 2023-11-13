@@ -1,27 +1,28 @@
 .fh__footer {
-    &-wrapper{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 3rem;
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  background-color: #333;
+  padding: 4rem;
+  &-copyright-text {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 112.9%; /* 36.128px */
+    text-align: center;
+    margin-top: 3rem;
+    @media screen and (max-width: 600px) {
+      font-size: 2.5rem;
     }
-    background-color: #333;
-    padding: 4rem;
-&-copyright-text{
-    color: #FFF;
-font-size: 30px;
-font-style: normal;
-font-weight: 500;
-line-height: 112.9%; /* 36.128px */
-text-align: center;
-margin-top: 3rem;
-}
+  }
   &-logo {
     h1 {
       color: #fff;
-      font-size: 64px;
-      font-style: normal;
+      font-size: 6rem;
       font-weight: 700;
       line-height: 112.9%; /* 72.256px */
     }
@@ -29,15 +30,14 @@ margin-top: 3rem;
   &-caseStudy,
   &-resources {
     ul {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 1.5rem;
       li {
         a {
           color: #a6a6a6;
-          font-size: 20px;
-          font-style: normal;
+          font-size: 2rem;
           font-weight: 400;
           line-height: 25px; /* 27.096px */
         }
@@ -51,18 +51,20 @@ margin-top: 3rem;
     gap: 1.5rem;
     h4 {
       color: #a6a6a6;
-      font-size: 20px;
-      font-style: normal;
+      font-size: 2rem;
       font-weight: 400;
       line-height: 25px; /* 27.096px */
     }
   }
   &-title {
     color: #fff;
-    font-size: 35px;
-    font-style: normal;
+    font-size: 3.5rem;
     font-weight: 400;
     line-height: 30px; /* 45.16px */
     margin-bottom: 4rem;
+    @media screen and (max-width: 600px) {
+      font-size: 3rem;
+      margin-bottom: 3rem;
+    }
   }
 }

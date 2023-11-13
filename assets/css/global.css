@@ -61,12 +61,14 @@ span {
   margin: 9rem 0rem;
 }
 
-header, .Section__section_FH001 {
+header,
+.Section__section_FH001 {
   max-width: 1200px;
   margin: auto;
 }
 @media screen and (max-width: 1300px) {
-  header, .Section__section_FH001 {
+  header,
+  .Section__section_FH001 {
     width: 90%;
   }
 }
@@ -77,10 +79,15 @@ header, .Section__section_FH001 {
   font-weight: 700;
   line-height: 56px; /* 87.5% */
 }
+@media screen and (max-width: 600px) {
+  .section-title {
+    font-size: 4rem;
+  }
+}
 .section-title div {
   background: #333;
   width: 55px;
   height: 2px;
   margin-top: 2rem;
   margin-bottom: 3rem;
-}/*# sourceMappingURL=global.css.map */
+} /*# sourceMappingURL=global.css.map */

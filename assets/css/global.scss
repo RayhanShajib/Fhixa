@@ -57,6 +57,9 @@ header,.Section__section_FH001 {
   font-size: 5rem;
   font-weight: 700;
   line-height: 56px; /* 87.5% */
+  @media screen and (max-width: 600px) {
+    font-size: 4rem;
+  }
   div {
     background: #333;
     width: 55px;

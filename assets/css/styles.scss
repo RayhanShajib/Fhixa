@@ -43,8 +43,11 @@
       color: #333;
       font-size: 4.8rem;
       font-weight: 700;
-      line-height: 56px; /* 116.667% */
+      line-height: 50px; /* 116.667% */
       position: relative;
+      @media screen and (max-width: 600px) {
+        font-size: 3.5rem;
+      }
     }
     p {
       color: #333;
@@ -52,6 +55,9 @@
       font-weight: 700;
       line-height: 27px; /* 112.5% */
       margin-top: 2rem;
+      @media screen and (max-width: 600px) {
+        font-size: 2rem;
+      }
     }
   }
   &-content {
@@ -59,6 +65,7 @@
     @media screen and (max-width: 800px) {
       border: none;
     }
+
     &-FH001 {
       max-width: 700px;
       cursor: pointer;
@@ -74,6 +81,9 @@
       h3 {
         font-size: 4rem;
         padding: 0rem 4rem;
+        @media screen and (max-width: 600px) {
+          font-size: 3rem;
+        }
       }
     }
     .details-list {
@@ -145,6 +155,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @media screen and (max-width: 600px) {
+          font-size: 3rem;
+        }
         span {
           display: flex;
           align-items: center;
@@ -226,6 +239,9 @@
         font-size: 4rem;
         font-weight: 700;
         line-height: 42px; /* 105% */
+        @media screen and (max-width: 600px) {
+          font-size: 3rem;
+        }
       }
       p {
         color: #333;
@@ -410,11 +426,17 @@
   &-content002,
   &-content003 {
     padding: 5rem;
+    @media screen and (max-width: 600px) {
+      padding: 3rem;
+    }
     h2 {
       color: #333;
       font-size: 4.5rem;
       font-weight: 700;
       line-height: 50px; /* 87.5% */
+      @media screen and (max-width: 600px) {
+        font-size: 4rem;
+      }
     }
     p {
       color: #a6a6a6;
@@ -525,10 +547,11 @@
       text-align: center;
     }
   }
+
   .client-review-title {
     h2 {
       color: #fff;
-      font-size: 2.7rem;
+      font-size: 2.5rem;
       font-weight: 400;
       line-height: 35px; /* 175% */
       margin-bottom: 5rem;
@@ -736,10 +759,8 @@
   input,
   textarea {
     color: #333;
-    font-size: 16px;
-    font-style: normal;
+    font-size: 1.6rem;
     font-weight: 700;
-    line-height: normal;
     border: none;
     outline: none;
     background: transparent;
@@ -827,19 +848,7 @@
   .fh__hero-section-content {
     padding: 2rem;
   }
-  .fh__hero-section-content h1 {
-    font-size: 3rem;
-  }
-  .fh__hero-section-content h1 b {
-    font-size: 4rem;
-  }
-  .fh__idea-to-launch-info h2 {
-    font-size: 3.5rem;
-    line-height: 45px;
-  }
-  .fh__idea-to-launch-info p {
-    font-size: 2rem;
-  }
+
   .fh__idea-to-launch-content-FH001 {
     padding: 2rem 0rem;
   }
@@ -848,20 +857,7 @@
   .fh__services-section-wd {
     padding: 2rem;
   }
-  .section-title {
-    font-size: 4.5rem;
-  }
-  .fh__build-section-dyp-summary h2 {
-    font-size: 3rem;
-    flex-wrap: wrap;
-  }
-  .fh__build-section-dyp-summary p,
-  .fh__build-section-dyp-summary-list h2 {
-    font-size: 1.6rem;
-    span {
-      padding-right: 1rem;
-    }
-  }
+
   .fh__build-section-dyp .summary-lists__FH003 h2 {
     gap: 2rem;
   }
@@ -871,25 +867,11 @@
     padding: 2rem 0rem;
     border: none;
   }
-  .fh__craft-brilliance-section-content001 h2,
-  .fh__craft-brilliance-section-content002 h2,
-  .fh__craft-brilliance-section-content003 h2 {
-    font-size: 40px;
-  }
-  .fh__craft-brilliance-section-content001 p,
-  .fh__craft-brilliance-section-content002 p,
-  .fh__craft-brilliance-section-content003 p {
-    font-size: 20px;
-    line-height: 35px;
-    margin-top: 2rem;
-  }
+
   .fh__faq-section .title__FH005 {
     padding: 10px 15px;
   }
-  .fh__faq-section .fh__faq-question-summary h3 {
-    font-size: 25px;
-    line-height: 35px;
-  }
+
   .fh__services-section-wt-title,
   .fh__services-section-adt-title,
   .fh__services-section-wd-title {
@@ -932,10 +914,9 @@
   white-space: nowrap;
   min-width: 100%;
   height: 100%;
-  line-height: normal;
   animation: marquee 5s linear infinite;
   @media screen and (max-width: 800px) {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -954,6 +935,9 @@
   .marquee-wrapper {
     display: block;
     top: 50%;
+    @media screen and (max-width: 800px) {
+      display: none !important;
+    }
   }
   .marquee-title h2 {
     font-size: 100px;
@@ -975,6 +959,9 @@
   }
   .marquee-title h2 {
     font-size: 100px;
+    @media screen and (max-width: 800px) {
+      display: none !important;
+    }
   }
   .fh__services-section-wd-btns {
     display: none;

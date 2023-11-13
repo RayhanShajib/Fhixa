@@ -10,8 +10,7 @@
 }
 .fh__hero-section .fh__scroll-down {
   color: #333;
-  font-size: 14px;
-  font-style: normal;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 169.4%; /* 23.716px */
   letter-spacing: 0.735px;
@@ -75,6 +74,7 @@
 @media screen and (max-width: 600px) {
   .fh__hero-section-content h1 {
     margin: 0rem;
+    font-size: 3.5rem;
   }
 }
 .fh__hero-section-content h1 b {
@@ -82,7 +82,7 @@
 }
 @media screen and (max-width: 600px) {
   .fh__hero-section-content h1 b {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 .fh__hero-section-content .meta-link {
@@ -99,11 +99,14 @@
 .fh__hero-section .fh__trusted-partners-title {
   color: #333;
   text-align: center;
-  font-size: 40px;
-  font-style: normal;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: normal;
   margin: 5rem;
+}
+@media screen and (max-width: 600px) {
+  .fh__hero-section .fh__trusted-partners-title {
+    font-size: 3rem;
+  }
 }
 .fh__hero-section .fh__trusted-partners-group {
   display: flex;

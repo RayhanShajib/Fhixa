@@ -77,6 +77,11 @@ header, .Section__section_FH001 {
   font-weight: 700;
   line-height: 56px; /* 87.5% */
 }
+@media screen and (max-width: 600px) {
+  .section-title {
+    font-size: 4rem;
+  }
+}
 .section-title div {
   background: #333;
   width: 55px;
@@ -132,11 +137,8 @@ header .fh__header-menu ul {
 }
 header .fh__header-menu ul li a {
   color: #a6a6a6;
-  font-family: Nunito Sans;
-  font-size: 15px;
-  font-style: normal;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: normal;
   transition: 0.5s ease-in-out;
 }
 
@@ -176,8 +178,7 @@ header .fh__header-menu ul li a {
 }
 .fh__hero-section .fh__scroll-down {
   color: #333;
-  font-size: 14px;
-  font-style: normal;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 169.4%; /* 23.716px */
   letter-spacing: 0.735px;
@@ -241,6 +242,7 @@ header .fh__header-menu ul li a {
 @media screen and (max-width: 600px) {
   .fh__hero-section-content h1 {
     margin: 0rem;
+    font-size: 3.5rem;
   }
 }
 .fh__hero-section-content h1 b {
@@ -248,7 +250,7 @@ header .fh__header-menu ul li a {
 }
 @media screen and (max-width: 600px) {
   .fh__hero-section-content h1 b {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 .fh__hero-section-content .meta-link {
@@ -265,11 +267,14 @@ header .fh__header-menu ul li a {
 .fh__hero-section .fh__trusted-partners-title {
   color: #333;
   text-align: center;
-  font-size: 40px;
-  font-style: normal;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: normal;
   margin: 5rem;
+}
+@media screen and (max-width: 600px) {
+  .fh__hero-section .fh__trusted-partners-title {
+    font-size: 3rem;
+  }
 }
 .fh__hero-section .fh__trusted-partners-group {
   display: flex;
@@ -324,10 +329,14 @@ header .fh__header-menu ul li a {
 }
 .fh__services-section-wt-title h2, .fh__services-section-adt-title h2, .fh__services-section-wd-title h2 {
   color: #333;
-  font-size: 40px;
-  font-style: normal;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 40px; /* 100% */
+}
+@media screen and (max-width: 600px) {
+  .fh__services-section-wt-title h2, .fh__services-section-adt-title h2, .fh__services-section-wd-title h2 {
+    font-size: 3rem;
+  }
 }
 
 .fh__footer {
@@ -342,18 +351,21 @@ header .fh__header-menu ul li a {
   gap: 3rem;
 }
 .fh__footer-copyright-text {
-  color: #FFF;
-  font-size: 30px;
-  font-style: normal;
+  color: #fff;
+  font-size: 3rem;
   font-weight: 500;
   line-height: 112.9%; /* 36.128px */
   text-align: center;
   margin-top: 3rem;
 }
+@media screen and (max-width: 600px) {
+  .fh__footer-copyright-text {
+    font-size: 2.5rem;
+  }
+}
 .fh__footer-logo h1 {
   color: #fff;
-  font-size: 64px;
-  font-style: normal;
+  font-size: 6rem;
   font-weight: 700;
   line-height: 112.9%; /* 72.256px */
 }
@@ -365,8 +377,7 @@ header .fh__header-menu ul li a {
 }
 .fh__footer-caseStudy ul li a, .fh__footer-resources ul li a {
   color: #a6a6a6;
-  font-size: 20px;
-  font-style: normal;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 25px; /* 27.096px */
 }
@@ -378,18 +389,22 @@ header .fh__header-menu ul li a {
 }
 .fh__footer-contact-info h4 {
   color: #a6a6a6;
-  font-size: 20px;
-  font-style: normal;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 25px; /* 27.096px */
 }
 .fh__footer-title {
   color: #fff;
-  font-size: 35px;
-  font-style: normal;
+  font-size: 3.5rem;
   font-weight: 400;
   line-height: 30px; /* 45.16px */
   margin-bottom: 4rem;
+}
+@media screen and (max-width: 600px) {
+  .fh__footer-title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
 }
 
 .fh__build-section .fh__build-section-dyp-summary-list h2::after {
@@ -434,8 +449,13 @@ header .fh__header-menu ul li a {
   color: #333;
   font-size: 4.8rem;
   font-weight: 700;
-  line-height: 56px; /* 116.667% */
+  line-height: 50px; /* 116.667% */
   position: relative;
+}
+@media screen and (max-width: 600px) {
+  .fh__idea-to-launch-info h2 {
+    font-size: 3.5rem;
+  }
 }
 .fh__idea-to-launch-info p {
   color: #333;
@@ -443,6 +463,11 @@ header .fh__header-menu ul li a {
   font-weight: 700;
   line-height: 27px; /* 112.5% */
   margin-top: 2rem;
+}
+@media screen and (max-width: 600px) {
+  .fh__idea-to-launch-info p {
+    font-size: 2rem;
+  }
 }
 .fh__idea-to-launch-content {
   border-left: 1px solid #333;
@@ -470,6 +495,11 @@ header .fh__header-menu ul li a {
 .fh__idea-to-launch-content .topic h3 {
   font-size: 4rem;
   padding: 0rem 4rem;
+}
+@media screen and (max-width: 600px) {
+  .fh__idea-to-launch-content .topic h3 {
+    font-size: 3rem;
+  }
 }
 .fh__idea-to-launch-content .details-list {
   max-height: 0;
@@ -534,6 +564,11 @@ header .fh__header-menu ul li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+  .fh__build-section-dyp-summary h2 {
+    font-size: 3rem;
+  }
 }
 .fh__build-section-dyp-summary h2 span {
   display: flex;
@@ -610,6 +645,11 @@ header .fh__header-menu ul li a {
   font-size: 4rem;
   font-weight: 700;
   line-height: 42px; /* 105% */
+}
+@media screen and (max-width: 600px) {
+  .fh__case-studies-section-case001-info h2, .fh__case-studies-section-case002-info h2 {
+    font-size: 3rem;
+  }
 }
 .fh__case-studies-section-case001-info p, .fh__case-studies-section-case002-info p {
   color: #333;
@@ -784,11 +824,21 @@ header .fh__header-menu ul li a {
 .fh__craft-brilliance-section-content001, .fh__craft-brilliance-section-content002, .fh__craft-brilliance-section-content003 {
   padding: 5rem;
 }
+@media screen and (max-width: 600px) {
+  .fh__craft-brilliance-section-content001, .fh__craft-brilliance-section-content002, .fh__craft-brilliance-section-content003 {
+    padding: 3rem;
+  }
+}
 .fh__craft-brilliance-section-content001 h2, .fh__craft-brilliance-section-content002 h2, .fh__craft-brilliance-section-content003 h2 {
   color: #333;
   font-size: 4.5rem;
   font-weight: 700;
   line-height: 50px; /* 87.5% */
+}
+@media screen and (max-width: 600px) {
+  .fh__craft-brilliance-section-content001 h2, .fh__craft-brilliance-section-content002 h2, .fh__craft-brilliance-section-content003 h2 {
+    font-size: 4rem;
+  }
 }
 .fh__craft-brilliance-section-content001 p, .fh__craft-brilliance-section-content002 p, .fh__craft-brilliance-section-content003 p {
   color: #a6a6a6;
@@ -899,7 +949,7 @@ header .fh__header-menu ul li a {
 }
 .fh__testimonial-section-wrapper .client-review-title h2 {
   color: #fff;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   font-weight: 400;
   line-height: 35px; /* 175% */
   margin-bottom: 5rem;
@@ -1100,10 +1150,8 @@ header .fh__header-menu ul li a {
 .fh__contact-section input,
 .fh__contact-section textarea {
   color: #333;
-  font-size: 16px;
-  font-style: normal;
+  font-size: 1.6rem;
   font-weight: 700;
-  line-height: normal;
   border: none;
   outline: none;
   background: transparent;
@@ -1184,19 +1232,6 @@ header .fh__header-menu ul li a {
   .fh__hero-section-content {
     padding: 2rem;
   }
-  .fh__hero-section-content h1 {
-    font-size: 3rem;
-  }
-  .fh__hero-section-content h1 b {
-    font-size: 4rem;
-  }
-  .fh__idea-to-launch-info h2 {
-    font-size: 3.5rem;
-    line-height: 45px;
-  }
-  .fh__idea-to-launch-info p {
-    font-size: 2rem;
-  }
   .fh__idea-to-launch-content-FH001 {
     padding: 2rem 0rem;
   }
@@ -1204,21 +1239,6 @@ header .fh__header-menu ul li a {
   .fh__services-section-adt,
   .fh__services-section-wd {
     padding: 2rem;
-  }
-  .section-title {
-    font-size: 4.5rem;
-  }
-  .fh__build-section-dyp-summary h2 {
-    font-size: 3rem;
-    flex-wrap: wrap;
-  }
-  .fh__build-section-dyp-summary p,
-  .fh__build-section-dyp-summary-list h2 {
-    font-size: 1.6rem;
-  }
-  .fh__build-section-dyp-summary p span,
-  .fh__build-section-dyp-summary-list h2 span {
-    padding-right: 1rem;
   }
   .fh__build-section-dyp .summary-lists__FH003 h2 {
     gap: 2rem;
@@ -1229,24 +1249,8 @@ header .fh__header-menu ul li a {
     padding: 2rem 0rem;
     border: none;
   }
-  .fh__craft-brilliance-section-content001 h2,
-  .fh__craft-brilliance-section-content002 h2,
-  .fh__craft-brilliance-section-content003 h2 {
-    font-size: 40px;
-  }
-  .fh__craft-brilliance-section-content001 p,
-  .fh__craft-brilliance-section-content002 p,
-  .fh__craft-brilliance-section-content003 p {
-    font-size: 20px;
-    line-height: 35px;
-    margin-top: 2rem;
-  }
   .fh__faq-section .title__FH005 {
     padding: 10px 15px;
-  }
-  .fh__faq-section .fh__faq-question-summary h3 {
-    font-size: 25px;
-    line-height: 35px;
   }
   .fh__services-section-wt-title,
   .fh__services-section-adt-title,
@@ -1294,12 +1298,11 @@ header .fh__header-menu ul li a {
   white-space: nowrap;
   min-width: 100%;
   height: 100%;
-  line-height: normal;
   animation: marquee 5s linear infinite;
 }
 @media screen and (max-width: 800px) {
   .marquee-title h2 {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -1318,6 +1321,11 @@ header .fh__header-menu ul li a {
 .fh__services-section-adt:hover .marquee-wrapper {
   display: block;
   top: 50%;
+}
+@media screen and (max-width: 800px) {
+  .fh__services-section-adt:hover .marquee-wrapper {
+    display: none !important;
+  }
 }
 .fh__services-section-adt:hover .marquee-title h2 {
   font-size: 100px;
@@ -1342,6 +1350,11 @@ header .fh__header-menu ul li a {
 }
 .fh__services-section-wd:hover .marquee-title h2 {
   font-size: 100px;
+}
+@media screen and (max-width: 800px) {
+  .fh__services-section-wd:hover .marquee-title h2 {
+    display: none !important;
+  }
 }
 .fh__services-section-wd:hover .fh__services-section-wd-btns {
   display: none;

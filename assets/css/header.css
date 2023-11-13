@@ -19,11 +19,8 @@ header .fh__header-menu ul {
 }
 header .fh__header-menu ul li a {
   color: #a6a6a6;
-  font-family: Nunito Sans;
-  font-size: 15px;
-  font-style: normal;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: normal;
   transition: 0.5s ease-in-out;
 }
 
